@@ -1,6 +1,6 @@
 # Python for Corporate Finance
 
-## Projet 1 — Reporting financier automatisé
+## Projet 1 : Reporting financier automatisé
 
 ### Objectif
 Automatiser le calcul des marges et des écarts budgétaires d'une entreprise industrielle fictive avec Python.
