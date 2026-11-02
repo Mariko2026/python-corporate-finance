@@ -1,41 +1,28 @@
-Python for Corporate Finance
+# Python for Corporate Finance
 
-Projet 01  Reporting financier automatisé
+## Projet 1 — Reporting financier automatisé
 
-Objectif
+### Objectif
+Automatiser le calcul des marges et des écarts budgétaires d'une entreprise industrielle fictive avec Python.
 
-Développer un programme Python permettant d'automatiser le calcul d'indicateurs financiers et d'analyser les écarts entre les coûts réels et le budget prévisionnel d'une entreprise industrielle fictive.
+### Contexte
+Alpha Industrie est une entreprise fictive dont le chiffre d'affaires est de 500 000 €, les coûts réels de 380 000 € et le budget de coûts de 350 000 €.
 
-Contexte
+### Fonctionnalités
+- Calcul de la marge et du taux de marge sur chiffre d'affaires
+- Calcul de l'écart budgétaire en euros et en pourcentage
+- Diagnostic automatique avec if, elif et else
 
-Alpha Industrie est une entreprise fictive réalisant un chiffre d'affaires de 500 000 €, avec des coûts réels de 380 000 € et un budget prévisionnel des coûts de 350 000 €.
+### Résultats
+- Marge : 120 000 €
+- Taux de marge sur CA : 24 %
+- Écart budgétaire : +30 000 € (+8,57 %)
 
-Fonctionnalités
+### Analyse financière
+L'entreprise dégage une marge positive, mais les coûts dépassent le budget de 8,57 %. Il faudrait analyser les causes de cet écart avant de proposer des mesures correctives.
 
-- Calcul de la marge réalisée.
-- Calcul du taux de marge sur chiffre d'affaires.
-- Calcul des écarts budgétaires en euros et en pourcentage.
-- Diagnostic automatique avec les conditions `if`, `elif` et `else`.
-
-Résultats
-
-- Marge réalisée : 120 000 €.
-- Taux de marge sur chiffre d'affaires : 24 %.
-- Dépassement budgétaire : 30 000 €.
-- Écart budgétaire : +8,57 %.
-
-Analyse financière
-
-L'entreprise dégage une marge positive, mais ses coûts dépassent les prévisions de 8,57 %. Une analyse des causes de cet écart serait nécessaire afin de déterminer les actions correctives appropriées.
-
-Technologies utilisées
-
+### Outils
 Python 3 et Google Colab.
 
-Données
-
-Données entièrement fictives, utilisées à des fins pédagogiques.
-
-### Compétences développées
-
-Programmation Python, automatisation de calculs financiers, analyse budgétaire et reporting.
+### Données
+Toutes les données sont fictives, utilisées à des fins pédagogiques.
